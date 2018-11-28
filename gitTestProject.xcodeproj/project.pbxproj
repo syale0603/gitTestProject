@@ -14,6 +14,7 @@
 		CCAB340021AE435000EA874D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAB33FE21AE435000EA874D /* LaunchScreen.storyboard */; };
 		CCAB340B21AE435000EA874D /* gitTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB340A21AE435000EA874D /* gitTestProjectTests.swift */; };
 		CCAB341621AE435000EA874D /* gitTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB341521AE435000EA874D /* gitTestProjectUITests.swift */; };
+		CCAB342421AE5B0D00EA874D /* ommcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB342321AE5B0D00EA874D /* ommcViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CCAB341121AE435000EA874D /* gitTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAB341521AE435000EA874D /* gitTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitTestProjectUITests.swift; sourceTree = "<group>"; };
 		CCAB341721AE435000EA874D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAB342321AE5B0D00EA874D /* ommcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ommcViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				CCAB33F521AE434E00EA874D /* AppDelegate.swift */,
 				CCAB33F721AE434E00EA874D /* ViewController.swift */,
 				CCAB33F921AE434E00EA874D /* Main.storyboard */,
+				CCAB342321AE5B0D00EA874D /* ommcViewController.swift */,
 				CCAB33FC21AE435000EA874D /* Assets.xcassets */,
 				CCAB33FE21AE435000EA874D /* LaunchScreen.storyboard */,
 				CCAB340121AE435000EA874D /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCAB33F821AE434E00EA874D /* ViewController.swift in Sources */,
+				CCAB342421AE5B0D00EA874D /* ommcViewController.swift in Sources */,
 				CCAB33F621AE434E00EA874D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
