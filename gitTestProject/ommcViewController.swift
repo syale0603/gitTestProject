@@ -10,7 +10,7 @@ import UIKit
 
 class ommcViewController: UIViewController {
 
-    let yuyuta = "田中秀和"
+    let yuyuta = "田中ひで和"
     
     override func viewDidLoad() {
         super.viewDidLoad()
