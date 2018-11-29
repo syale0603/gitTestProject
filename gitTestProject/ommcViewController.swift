@@ -12,13 +12,22 @@ class ommcViewController: UIViewController {
 
     let yuyuta = "田中ひで和"
     
+    @IBOutlet weak var yuyutaLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        yuyutaLabel.text = yuyuta
+        
     }
     
-
+    @IBAction func backBtn(_ sender: Any) {
+        
+        dismiss(animated: true, completion: nil)
+        
+    }
+    
     /*
     // MARK: - Navigation
 

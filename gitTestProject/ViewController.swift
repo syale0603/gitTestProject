@@ -9,12 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var ommcLabel: UILabel!
+    
     // 差分の追加
     var ommc = "東京都新宿区高田馬場4-30-4 ラ・アイサトール107号"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        ommcLabel.text = ommc
+        
     }
 
 
